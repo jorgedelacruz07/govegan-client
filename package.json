@@ -1,0 +1,30 @@
+{
+  "name": "govegan",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Jorge de la Cruz Padilla <jdelacruzp7@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development HOST=0.0.0.0 PORT=5041 nuxt",
+    "build": "cross-env NODE_ENV=production nuxt build",
+    "start": "cross-env NODE_ENV=production PORT=5041 nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/dotenv": "^1.1.1",
+    "@nuxtjs/pwa": "^2.0.8",
+    "@nuxtjs/vuetify": "^0.4.2",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
