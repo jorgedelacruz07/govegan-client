@@ -39,9 +39,28 @@ module.exports = {
     '@nuxtjs/pwa'
   ],
 
+  /*
+  ** Vuetify configuration
+  */
   vuetify: {
     // Vuetify options
     //  theme: { }
+  },
+
+  /*
+  ** PWA configuration
+  */
+  workbox: {
+    runtimeCaching: [
+      {
+        // Should be a regex string. Compiles into new RegExp('https://my-cdn.com/.*')
+        urlPattern: 'https://govegan.ml/.*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        // Defaults to `GET` if omitted
+        method: 'GET'
+      }
+    ]
   },
 
   /*
