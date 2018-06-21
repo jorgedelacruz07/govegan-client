@@ -39,18 +39,18 @@
 </template>
 
 <script>
-  import Navbar from '../layouts/navbar'
-  export default {
-    data () {
-      return {
-        cards: [
-          { title: 'Pre-fab homes', src: 'https://placeimg.com/900/300/people', flex: 12 },
-          { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
-          { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
-          { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
-          { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
-          { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
-          { title: 'Best airlines', src: 'https://placeimg.com/400/250/people', flex: 6 }
+import Navbar from '../layouts/navbar'
+export default {
+  data () {
+    return {
+      cards: [
+        { title: 'Pre-fab homes', src: 'https://placeimg.com/900/300/people', flex: 12 },
+        { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
+        { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
+        { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
+        { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
+        { title: 'Favorite road trips', src: 'https://placeimg.com/400/250/people', flex: 6 },
+        { title: 'Best airlines', src: 'https://placeimg.com/400/250/people', flex: 6 }
         ]
       }
     },
@@ -58,7 +58,9 @@
       Navbar
     }
   }
+
 </script>
 
 <style>
+
 </style>

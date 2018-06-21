@@ -4,7 +4,7 @@
     <v-container grid-list-md text-xs-center>
       <v-layout row wrap>
         <v-flex xs12 sm6 offset-sm3>
-          <v-card v-for="res in restaurants" :key="res">
+          <v-card v-for="res in restaurants" :key="res.slug">
             <v-card-media :src="res.image" height="200px">
             </v-card-media>
             <v-card-title primary-title>
