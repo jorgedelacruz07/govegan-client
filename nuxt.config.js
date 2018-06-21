@@ -58,6 +58,7 @@ module.exports = {
   manifest: {
     name: 'GoVegan',
     lang: 'es',
+    short_name: 'GoVegan',
     theme_color: '#FFF',
     background_color: '#FFF'
   },
